@@ -375,6 +375,39 @@ contact form .input-box input {
   cursor: pointer;
 }
 
+@media screen and (max-width: 768px) {
+  .input-box {
+    flex-direction: row;
+  }
+
+  input {
+    max-width: 100%;
+  }
+
+  textarea {
+    width: 80%;
+  }
+
+  .contact form .btn {
+    margin-top: 1.5rem;
+  }
+  .contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .skilscontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .navbar {
+    display: none;
+  }
+}
+
 .projects {
   display: flex;
   align-items: center;
